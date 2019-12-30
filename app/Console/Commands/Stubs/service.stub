@@ -1,0 +1,15 @@
+<?php
+
+namespace DummyNamespace;
+
+use NamespacedRepository;
+
+class DummyService
+{
+    private $repo;
+
+    public function __construct(DummyRepo $repo)
+    {
+        $this->repo = $repo;
+    }
+}
