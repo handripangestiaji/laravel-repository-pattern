@@ -14,7 +14,8 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         Commands\RepositoryInterface::class,
-        Commands\Repository::class
+        Commands\Repository::class,
+        Commands\Service::class
     ];
 
     /**
