@@ -1,0 +1,51 @@
+<?php
+
+namespace DummyNamespace;
+
+use NamespacedDummyInterface;
+use NamespacedDummyModel;
+
+class DummyRepository implements DummyInterface
+{
+    private $dummyModel;
+
+    public function __construct(DummyModel $dummyModel)
+    {
+        $this->dummyModel = $dummyModel;
+    }
+
+    public function findAll()
+    {
+        //
+    }
+
+    public function find(int $id)
+    {
+        //
+    }
+
+    public function findBy(array $condition, array $ordered = [])
+    {
+        //
+    }
+
+    public function findOneBy(array $condition, array $ordered = [])
+    {
+        //
+    }
+
+    public function create(array $data)
+    {
+        //
+    }
+
+    public function update(int $id, array $data)
+    {
+        //
+    }
+
+    public function delete(int $id)
+    {
+        //
+    }
+}
